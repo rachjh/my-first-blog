@@ -1,22 +1,123 @@
 <html>
     <head>
-        <title>Django Girls blog</title>
+        <title>Rachel Hermans Blog</title>
     </head>
+    <style>
+
+      body {
+        background-color: lightblue;
+          font-family: 'Fresca', sans-serif;
+      }
+
+      h1 {
+          color: white;
+          text-align: center;
+          font-size: 60px;
+      }
+
+      h2 {
+            color: white;
+            text-align: center;
+            font-size: 40px;
+            }
+
+      body{
+              text-align: center;
+            }
+
     <body>
         <div>
             <h1><a href="">Django Girls Blog</a></h1>
         </div>
 
         <div>
-            <p>published: 14.06.2014, 12:14</p>
+            <p>published: 7.13.2017, 12:14</p>
             <h2><a href="">My first post</a></h2>
-            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p>This is my first post!</p>
         </div>
 
         <div>
-            <p>published: 14.06.2014, 12:14</p>
+            <p>published: 7.14.2017, 12:14</p>
             <h2><a href="">My second post</a></h2>
-            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut f.</p>
+            <p>This is my second post!</p>
+
+            body{
+              text-align: center;
+            }
+
+            p{
+                font-size: 30px;
+                color:black
+            }
+
+            </style>
+
+            <title>Rachel</title>
+
+            </head>
+
+
+            <h1>Rachel</h1>
+            <img src="images/forest.jpg" alt="this is a forest" style="width: 900px; height:400px;">
+            <h2>About me</h2>
+                <p>My name is Rachel. I am the oldest of four kids. I live in Rockville and go to school in Silver Spring. My school is called Yeshiva of Greater Washington. This summer I am doing the Girls Who Code summer immersion program. It's awesome!!!</p>
+            <h2>Likes and Dislikes</h2>
+                <p>I love ice cream, acting, sports, and coding. I dislike being bored.</p>
+            <h2>Fun Facts</h2>
+                <p>-I've been to Jamica.<p/>
+                <p>-I'm on student council.</p>
+                <p>-I'm on the Basketball team.</p>
+            <h2>My Favorite Webpage</h2>
+            <p>Google</p>
+                <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j0j69i59j0j69i60j0.1939j0j7&sourceid=chrome&ie=UTF-8">link to google</a>
+            <h2>My Side Scroller Game</h2>
+
+            <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="images/Capture.PNG" alt="Home" width="350" height="300">
+
+            <script>
+            function bigImg(x) {
+                x.style.height = "310px";
+                x.style.width = "360px";
+            }
+
+            function normalImg(x) {
+                x.style.height = "300px";
+                x.style.width = "350px";
+            }
+            </script>
+
+                <p>This side scroller game is called Home. I made this game with Colleen Avila. Jump over hydrants and collect bones to get the dog back home.</p>
+
+                <a href="https://scratch.mit.edu/projects/167959649/#fullscreen">This is a link to my side scroller</a>
+
+                <h2>Pictures</h2>
+
+                <img src="images/IMG_1332.jpg" alt="this is me." style= "width:300px; height:250px">
+                <img src="images/production2.jpg" alt="this is production." style= "width:350px; height:250px">
+                <img src="images/mesiba.jpg" alt="this is mesiba." style= "width:350px; height:250px">
+                <img src="images/profile%20pic.jpg" alt="Rachel, Alexa, Sheer." style= "width:450px; height:350px; margin-right: 20px;">
+                <img src="images/download.png" alt="girls who code logo."style= "width:450px; height:350px">
+
+                <p id="hey">Want to see a message from Rachel?</p>
+            <p>
+            <button type="button"
+            onclick= 'document.getElementById("hey").innerHTML = "Hi! Thanks for stopping by!!"'> Click Me.</button></p>
+
+            <div>
+                <h2>Posts:</h2>
+            </div>
+
+            <div>
+                <p>published: 7.13.2017, 12:14</p>
+                <h2><a href="">My first post</a></h2>
+                <p>This is my first post!</p>
+            </div>
+
+            <div>
+                <p>published: 7.14.2017, 12:14</p>
+                <h2><a href="">My second post</a></h2>
+                <p>This is my second post!</p>
+
         </div>
     </body>
 </html>
